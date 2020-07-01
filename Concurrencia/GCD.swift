@@ -8,12 +8,9 @@
 
 import UIKit
 
-class GCD: NSObject {
-}
-
 // MARK: Functions.
-extension GCD {
-    
+class GCD: NSObject {
+
     func simpleDispatchQueue() {
         DispatchQueue.main.async {
             print("Hola main")
